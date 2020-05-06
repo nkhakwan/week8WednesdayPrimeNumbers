@@ -13,13 +13,10 @@ namespace PrimeNumbers
       string InputNumber = Console.ReadLine();
       int GivenNumber = int.Parse(InputNumber);
       List<int> ReducingList = new List<int>(0);
-      for (int i=2; i<GivenNumber+1; i=i+1)
+      for (int i=1; i<GivenNumber+1; i=i+1)
       {
         ReducingList.Add(i);
       }
-      
-
-
       for (int i=1; i<ReducingList.Count; i=i+1)
       {
         for (int j=i+1; j<ReducingList.Count; j=j+1)
@@ -29,11 +26,8 @@ namespace PrimeNumbers
           {
             ReducingList[j] =1;
           }
-          //Console.WriteLine(j + " " +ReducingList[j]);
         }
-        //Console.WriteLine(i+ " outofsmallloop");
       }
-        //int max = ReducingList.;
         List<int> AnotherList = new List<int>(0);
         for(int l=0; l<ReducingList.Count; l=l+1)
         {
