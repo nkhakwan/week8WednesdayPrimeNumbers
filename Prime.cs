@@ -1,3 +1,7 @@
+
+
+
+
 int GivenNumber = 100;
 List<int> ReducingList = new List<int>(0);
 for (int i=2; i<GivenNumber; i=i+1)
@@ -7,14 +11,22 @@ for (int i=2; i<GivenNumber; i=i+1)
 
 for (int i=2; i<GivenNumber; i=i+1)
 {
-  for (j=i; j<GivenNumber; j=i+1)
+  for (int j=i+1; j<GivenNumber; j=i+1)
   {
-    if (!(ReducingList(j)%i))
+    if ((ReducingList(j)%i))
     {
-      ReducingList.Remove(j);
+      ReducingList[j] = 0;
+    }
+    
+  }
+  for(int l=0; l<ReducingList.length; l=l+1)
+  {
+    if (ReducingList[l] == 0)
+    {
+      ReducingList.Remove[l];
     }
   }
-  
 }
+return ReducingList;
 
 
