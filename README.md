@@ -1,12 +1,12 @@
 # _Epicodus C# Practice_
 
-#### _Epicodus Week 8 Tuesday C# different files Practice_
+#### _Epicodus Week 8 Wednesday C# Prime Number sifter_
 
 #### By _**KhanSahab**_
 
 ## Description
 
-_This was just a C# coding practice day. Tried to write C# code without looking at the lessons. Got accustomed to Class and constructore Syntax along with how to generate lists that contains Constructors. Also got practice today for namespace, getters and setters.This project has different sets of UI and backend code. This was just for practice. The one that currently is effective just puts out a name and than asks you to suggests your name and than print outs your suggested name after using firts setters and than getters_
+_The code when run asks a number and upon entering number displays back all the prime numbers from 1 till the number that is inputted at the console_
 
 ## Setup/Installation Requirements
 
@@ -29,13 +29,12 @@ _Have a bug or an issue with this application? call 999-503-9999_
 _C# objects_
 **C# constructors**
 _C# Lists and forEach loop_
-**Getters and Setters**
 namespace
 
 
 ### Specs 
-First the program outputs a name and asks you to suggest a new name
-Finally it outputs your suggested name after "setting" and subsequently "getting" that suggested name.
+* Input::: When run the program asks to input a number
+* Output::: Displays back all the prime numbers that have a value equal to or lower than the inputted number
 ### License
 
 This software is licensed under the Epicodus inc license.
